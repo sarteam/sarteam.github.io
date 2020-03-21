@@ -3,11 +3,11 @@ html {
 }
 
 body {
-	font-family: Rosario;
+	font-family: 'Rosario', sans-serif;
 }
 
 nav {
-	font-family: Lobster;
+	font-family: 'Lobster', cursive;
 }
 
 .jumbotron {
@@ -25,11 +25,11 @@ nav {
 }
 
 .jumbotron h1 {
-	font-family: Lobster;
+	font-family: 'Lobster', cursive;
 }
 
 .jumbotron p {
-	font-family: Play;
+	font-family: 'Play', sans-serif;
 }
 
 .jumbotron img {
@@ -39,11 +39,11 @@ nav {
 }
 
 .about p {
-	font-family: Josefin Sans;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 .about h2 {
-	font-family: Lobster;
+	font-family: 'Lobster', cursive;
 
 }
 
@@ -53,7 +53,7 @@ nav {
 }
 
 .contact h2 {
-	font-family: Lobster;
+	font-family: 'Lobster', cursive;
 
 }
 
@@ -78,11 +78,11 @@ nav {
 }
 
 .gallery h2 {
-	font-family: Lobster;
+	font-family: 'Lobster', cursive;
 }
 
 .gallery h3 {
-	font-family: Ubuntu;
+	font-family: 'Rosario', sans-serif;
 	height: 6px;
 	margin-bottom: 16px;
 	margin-top: 2px;
@@ -111,12 +111,12 @@ nav {
 }
 
 .card-title {
-	font-family: Play;
+	font-family: 'Play', sans-serif;
 	font-weight: bold;
 }
 
 .card-text {
-	font-family: Rosario;
+	font-family: 'Rosario', sans-serif;
 	font-style: italic;
 }
 
@@ -125,7 +125,7 @@ section {
 }
 
 button {
-	font-family: Play;
+	font-family: 'Play', sans-serif;
 	font-weight: bold;
 	text-shadow: 1px 1px 10px #E5277585;
 }
@@ -141,10 +141,10 @@ button a:hover {
 }
 
 footer {
-	font-family: Lobster;
+	font-family: 'Lobster', cursive;
 }
 
-@-webkit-keyframes ngelujancok {
+@-webkit-keyframes fuwafuwa {
   from {
         -webkit-transform: rotate(0deg);
   }
@@ -153,7 +153,7 @@ footer {
   }
 }
 
-@-moz-keyframes ngelujancok {
+@-moz-keyframes fuwafuwa {
   from {
         -moz-transform: rotate(0deg);
   }
@@ -163,19 +163,19 @@ footer {
 }
 
 #fuwafuwa {
-  animation-name: ngelujancok;
+  animation-name: fuwafuwa;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   animation-duration: 25s;
   animation-play-state: running;
 
-  -webkit-animation-name: ngelujancok;
+  -webkit-animation-name: fuwafuwa;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
   -webkit-animation-duration: 25s;
   -webkit-animation-play-state: running;
 
-  -moz-animation-name: ngelujancok;
+  -moz-animation-name: fuwafuwa;
   -moz-animation-iteration-count: infinite;
   -moz-animation-timing-function: linear;
   -moz-animation-duration: 25s;
