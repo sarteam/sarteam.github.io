@@ -41,22 +41,6 @@ nav {
 	box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
 }
 
-.card {
-	overflow: hidden;
-  }
-  
-.card img {
-	transition: transform .5s ease;
-  }
-  
-.card:hover img {
-	transform: scale(1.1);
-  }
-
-.card-body {
-	padding-top: 20px;
-}
-
 .about p {
 	font-family: 'Josefin Sans', sans-serif;
 }
@@ -127,6 +111,19 @@ nav {
 .gallery .thumbnail.foto {
 	opacity: 1;
 	transform: translate(0,0);
+	transition: transform .5s ease;
+}
+
+.gallery .thumbnail.foto:hover {
+	transform: scale(1.1);
+}
+
+.card {
+	overflow: hidden;
+  }
+  
+.card-body {
+	padding-top: 22px;
 }
 
 .card-title {
