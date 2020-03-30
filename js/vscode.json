@@ -1,0 +1,12 @@
+{
+    "window.menuBarVisibility": "default",
+    "workbench.activityBar.visible": true,
+    "breadcrumbs.enabled": false,
+    "workbench.editor.enablePreview": false,
+    "editor.fontSize": 17,
+    "explorer.openEditors.visible": 0,
+    "editor.minimap.enabled": false,
+    "editor.lineHeight": 20,
+    "workbench.colorTheme": "One Dark Pro", // must be install theme
+    "php.suggest.basic": false // Install extension php intelephense before disable
+}
